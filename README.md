@@ -1,11 +1,11 @@
-About r-plsgenomics
-===================
+About r-plsgenomics-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plsgenomics-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=plsgenomics
 
 Package license: GPL (>= 2)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plsgenomics-feedstock/blob/main/LICENSE.txt)
 
 Summary: Routines for PLS-based genomic analyses, implementing PLS methods for classification with microarray data and prediction of transcription factor activities from combined ChIP-chip analysis. The >=1.2-1 versions include two new classification methods for microarray data: GSIM and Ridge PLS. The >=1.3 versions includes a new classification method combining variable selection and compression in logistic regression context: logit-SPLS; and an adaptive version of the sparse PLS.
 

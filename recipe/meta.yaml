@@ -1,6 +1,5 @@
 {% set version = "1.5-3" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-plsgenomics
@@ -13,8 +12,7 @@ source:
   sha256: d9e6a9f81ea86d203d79024524d57009edc835d9ca99fe77929e8226d7fd3b28
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
